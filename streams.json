@@ -1,0 +1,18 @@
+{
+  "general": {
+    "display_name": "General",
+    "description": "General discussion not fitting other streams"
+  },
+  "technical": {
+    "display_name": "Technical",
+    "description": "Technical questions, bugs, API, infrastructure"
+  },
+  "product": {
+    "display_name": "Product",
+    "description": "Product features, UX, requirements"
+  },
+  "project_mgmt": {
+    "display_name": "Project Management",
+    "description": "Timelines, coordination, status updates"
+  }
+}
