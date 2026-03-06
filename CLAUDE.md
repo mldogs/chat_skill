@@ -27,7 +27,7 @@ python -m chat update        # sync + classify + summarize
    - `TG_API_ID`, `TG_API_HASH`, `TG_SESSION` - Telegram API (Telethon)
    - `TG_CHAT_ID` - ID чата (узнать через `python -m chat dialogs`)
    - `OPENROUTER_API_KEY` - ключ OpenRouter для LLM
-   - `LLM_MODEL` - модель (по умолчанию claude-haiku-4-5)
+   - `LLM_MODEL` - модель (по умолчанию google/gemini-3.1-flash-lite-preview)
 
 2. Настроить стримы в `streams.json` под свой проект
 

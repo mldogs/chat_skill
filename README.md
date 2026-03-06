@@ -49,7 +49,7 @@ python -m chat update   # sync + classify + summarize
 
 1. Зарегистрируйся на [openrouter.ai](https://openrouter.ai)
 2. Создай API-ключ, добавь в `OPENROUTER_API_KEY` в `.env`
-3. Модель по умолчанию: `anthropic/claude-haiku-4-5-20251001` (дёшево и быстро). Можно изменить через `LLM_MODEL`
+3. Модель по умолчанию: `google/gemini-3.1-flash-lite-preview` (дёшево и быстро). Можно изменить через `LLM_MODEL`
 
 ## CLI
 

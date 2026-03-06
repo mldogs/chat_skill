@@ -19,7 +19,7 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # LLM model (via OpenRouter)
-LLM_MODEL = os.environ.get("LLM_MODEL", "anthropic/claude-haiku-4-5-20251001")
+LLM_MODEL = os.environ.get("LLM_MODEL", "google/gemini-3.1-flash-lite-preview")
 
 # Paths
 DB_PATH = PROJECT_ROOT / "chat.db"
